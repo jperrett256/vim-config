@@ -36,10 +36,10 @@ let g:tex_conceal='abdmg'
 
 " UltiSnips
 
-Plug 'sirver/ultisnips'
-let g:UltiSnipsExpandTrigger = '<tab>'
-let g:UltiSnipsJumpForwardTrigger = '<tab>'
-let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+" Plug 'sirver/ultisnips'
+" let g:UltiSnipsExpandTrigger = '<tab>'
+" let g:UltiSnipsJumpForwardTrigger = '<tab>'
+" let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 
 " vim surround
@@ -144,6 +144,9 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 " autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
+
+" Backspace
+set backspace=indent,eol,start
 
 " Line numbers
 :set number
