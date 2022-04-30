@@ -9,6 +9,9 @@ Plug 'mg979/vim-visual-multi'
 " ALE
 Plug 'dense-analysis/ale'
 
+let g:ale_pattern_options = {}
+let g:ale_pattern_options['.*\.asm$'] = {'ale_enabled': 0}
+
 
 " fuzzy finder
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
